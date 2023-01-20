@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+}
+
+.principal {
+    display: grid;
+    min-height: 100vh;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cabecera {
+    grid-area: 1 / 1 / span 4 / span 10;
+    background-color: aqua;
+}
+
+.menu {
+    grid-area: 5 / 1 / span 5 / span 10;
+    background-color: greenyellow;
+}
+
+.izquierdo {
+    grid-area: 7 / 1 / span 11/ span 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+}
+
+.derecho {
+    grid-area: 7 / 6 / span 11 / span 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: moccasin;
+}
+
+.pie {
+    grid-area: auto / 1 / auto / span 10;
+    background-color: burlywood;
+}

@@ -1,0 +1,99 @@
+p {
+    margin-left: 10px;
+}
+
+img {
+    height: 50px;
+    width: 40px;
+}
+
+/*  CAJA 1 */
+.caja1 {
+    border: dotted purple;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    position: relative;
+    color: purple;
+}
+
+/*  CAJA 2 */
+.caja2 {
+    border: dotted purple;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    position: relative;
+    color: purple;
+}
+
+/*  CAJA 3 */
+.caja3 {
+    border: dotted purple;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    position: relative;
+    color: purple;
+}
+
+/*  CAJA 4 */
+.caja4 {
+    border: dotted purple;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    position: relative;
+    color: purple;
+}
+
+#caja_opcion1 {
+    height: 50px;
+    width: 200px;
+    background-color: bisque;
+    position: absolute;
+    display: flex;
+}
+
+#caja_opcion2 {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    display: flex;
+}
+
+#caja_opcion3 {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: red;
+    position: absolute;
+    display: flex;
+}
+
+/* Hover */
+#caja_opcion1:hover {
+    display: none;
+}
+
+#caja_opcion2:hover {
+    display: none;
+}
+
+#caja_opcion3:hover {
+    display: none;
+}
+
+/* Active */
+#caja_opcion1:active {
+    display: none;
+}
+
+#caja_opcion2:active {
+    display: none;
+}
+
+#caja_opcion3:active {
+    display: none;
+}

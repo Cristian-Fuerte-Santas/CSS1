@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    max-width: 1500px;
+    max-height: 950px;
+}
+
+#espacioTrabajo {
+    width: 1500px;
+    height: 950px;
+}
+
+#cabecera {
+    position: relative;
+    background-image: url('iconos/cabeceraroja.png'), url('iconos/cabeceraroja.png'), url('iconos/cabeceraroja.png');
+    background-repeat: no-repeat;
+    background-position: 0px top, 250px top;
+    width: 1500px;
+    height: 100px;
+    border: solid 1px;
+    background-repeat: repeat-x;
+}
+
+#texto1 {
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+#menu {
+    border: dashed 1px black;
+    height: 600px;
+    width: 200px;
+}
+
+#cajaGrande {
+    border: solid 1px black;
+    height: 700px;
+    width: 1249px;
+    margin-left: 250px;
+    margin-top: -602px;
+}
+
+#contenido {
+    border: dashed 2px yellow;
+    width: 570px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#lateral {
+    border: dashed 2px red;
+    width: 430px;
+    height: 600px;
+    margin-top: -604px;
+    margin-left: 770px;
+}
+
+#texto2 {
+    position: relative;
+    bottom: 4px;
+    right: -15px;
+    color: black;
+}
+
+#texto3 {
+    font-style: italic;
+}

@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+}
+
+.principal {
+    display: grid;
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    grid-template-columns: auto;
+    grid-template-rows: 80px 0fr auto 50px;
+}
+
+.titulo {
+    grid-column: 1 / span 4;
+    background-color: blue;  
+}
+
+.menu {
+    grid-column: 1 / span 4;
+    background-color: greenyellow;  
+}
+
+.contenido {
+    grid-column: 1 / span 4;
+    background-color: purple;
+}
+
+.copyright {
+    grid-column: 1 / span 4;
+    background-color: palevioletred;
+    font-style: italic;
+}
